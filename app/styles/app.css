@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board {
+    width: 300px;
+    height: 300px;
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border: 1px solid #222222;
+    cursor: pointer;
+    outline: none;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:hover {
+    background: #f0f0f0;
+    transition: .3s all ease;
+}
